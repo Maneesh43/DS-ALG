@@ -65,7 +65,7 @@ public:
         for(auto i=0;i<size();i++){
             *(arr+1)=*(v+1);
         }
-        delete[] v;
+        delete [] v;
         v=arr;
     }
 };
@@ -73,5 +73,5 @@ public:
 int main()
 {
     CustomVector<int> vec;
-    cout << vec.at(2);
+    cout << vec.resize();
 }
