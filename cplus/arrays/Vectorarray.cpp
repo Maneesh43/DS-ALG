@@ -73,5 +73,4 @@ public:
 int main()
 {
     CustomVector<int> vec;
-    cout << vec.resize();
 }
