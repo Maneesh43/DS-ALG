@@ -67,6 +67,7 @@ public:
         }
         delete [] v;
         v=arr;
+        jcapacity=2*size();
     }
 };
 
