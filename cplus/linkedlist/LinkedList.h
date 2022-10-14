@@ -6,7 +6,7 @@ namespace linkedlist
     class LinkedList
     {
     public:
-        CustomNode *head = nullptr;
+         CustomNode *head{nullptr};
         LinkedList(int nodeValue, CustomNode *node);
         ~LinkedList();
         int getSize() const;
