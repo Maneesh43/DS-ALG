@@ -17,7 +17,7 @@ namespace linkedlist
         void push_front(int nodeValue);
         void pop_front();
         void push_back(int nodeValue);
-        void pop_back();
+        int pop_back();
         int front();
         int back();
         void insert(int index,int nodeValue);
@@ -27,6 +27,7 @@ namespace linkedlist
         void remove_value(int nodeValue);     
     private:
         int size_{0};
+        CustomNode* getNode(int nodeValue,CustomNode* node=nullptr);
     };
 }
 #endif

@@ -1,3 +1,7 @@
 .fleet
 .idea
 */**.exe
+*/venv
+.gradle/
+gradle/
+.gitattributes
