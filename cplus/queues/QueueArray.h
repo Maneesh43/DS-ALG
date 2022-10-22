@@ -7,12 +7,17 @@ namespace qarr
     class QueueArray
     {
         public:
-            QueueArray(int size);
+        QueueArray(){
+            head=0;
+            tail=0;
+            size_=0;
+        }
             void enqueue(T value);
             T dequeue();
             int getSize() const;
         private:
-            int head{0},tail{0};
+            int head,tail,size_;
+            T arr[5];
     };
 }
 

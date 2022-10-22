@@ -2,7 +2,7 @@
 #define QueueNode_H
 
 namespace qlist{
-class CustomNode
+struct CustomNode
     {
     public:
         int nodeValue;

@@ -1,3 +1,9 @@
-fun main(args: Array<String>) {
-    println("Hi")
+
+import dsalg.maneesh.com.A;
+
+
+fun main(args:Array<String>) {
+
+    A.printName()
+    println("Hello")
 }
